@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(0, 0%, 95%)
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  margin-left: 30px;
+  margin-bottom: 50px;
+  font-family: big Shoulders display;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: lexend deca;
+}
+img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+button{
+  margin-top: 100px;
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+}
+button:hover{
+  background-color: Transparent;
+  color: white;
+  border: solid 1px hsl(0, 0%, 95%);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 100px 100px auto 100px;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  padding: 0 50px 170px 50px;
+  border-radius: 15px 0 0 15px;
+
+}
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+  padding: 0 50px 170px 50px;
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 15px 15px 0;
+  padding: 0 50px 170px 50px;
+}
+.sedan {
+  color: hsl(31, 77%, 52%);
+}
+.suv{
+  color: hsl(184, 100%, 22%);
+}
+.luxurys{
+  color: hsl(179, 100%, 13%);
+}
+@media screen and (max-width: 700px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .sedans{
+    border-radius: 15px 15px 0 0;
+  }
+  .luxury{
+    border-radius: 0 0 15px 15px;
+  }
+}
